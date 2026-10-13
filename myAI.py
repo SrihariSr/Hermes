@@ -7,4 +7,5 @@ def myAI(state: GameState) -> Action:
 
 
 def defaultAI(state: GameState) -> Action: # This ai runs if myAI raises an exception, returns an invalid action or takes too long
+    # I WILL win this trust
     return Action.check() if state.my_player.chips_bet == max(player.chips_bet for player in state.players) else Action.fold()
