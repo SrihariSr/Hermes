@@ -13,7 +13,6 @@ FULL_DECK = [Card(rank, suit) for rank in Rank for suit in Suit]
 
 rng = random.Random()
 
-
 RANKING = (
     "AA KK QQ JJ TT 99 AKs 88 AQs AJs AKo ATs KQs AQo KJs 77 AJo KTs A9s QJs KQo ATo KJo 66 "
     "A8s QTs K9s A7s JTs KTo A9o QJo Q9s A5s A6s A4s K8s A8o QTo 55 A3s J9s K9o JTo K7s A7o "
