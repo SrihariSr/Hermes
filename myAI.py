@@ -7,7 +7,7 @@ from poker.hand import evaluate
 
 
 # How many imagined deals to try per decision
-SIMULATIONS = 500
+SIMULATIONS = 300
 
 FULL_DECK = [Card(rank, suit) for rank in Rank for suit in Suit]
 
